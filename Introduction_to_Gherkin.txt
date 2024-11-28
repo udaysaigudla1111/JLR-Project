@@ -19,4 +19,22 @@ Syntax:- Scenario: [Scenario Description]
 Benefits:
 1. It can be understand by both technical people and non technical people
 2. it boosts team work
-3.
+
+-----------------------------------------------------------------------------------------------
+Advanced gherkin syntaxes:-
+
+1. Streamlining common steps with Background [Background]
+
+    (i) Defines steps common to all scenarios in a feature file
+    (ii) Avoids repetition and keeps scenarios concise
+    (iii) Steps in Background are executed before each scenario
+    Syntax:- Just after the feature Statement Write the Background followed by steps 
+
+2. Parameterized scenarios with scenario outline [Scenario Outline]
+
+    (i) Used for running the same scenario multiple times with different data steps
+    (ii) Followed by an example section containing a table of varaibles and their values
+    Syntax:- Use Scenario Outline instead of Scenario, and define variables in the scenario steps, and list the values of these variables
+    under the *Examples* keywords
+
+
