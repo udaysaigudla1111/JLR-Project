@@ -3,13 +3,20 @@ Primary keywords:-
 1. Feature :
 The feature describes the high-level business value of a software feature
 Example: "Feature: User login"
+Syntax:- Feature: [Feature Name]
 
 2. Scenario :
 The Scenario outlines a specific situation or use case of the software
+Each feature can have multiple Scenarios
 Example: "Scenario: Successful login with valid credentials"
+Syntax:- Scenario: [Scenario Description]
 
 3. Given: Precondition
 4. When: Describes the action
 5. Then: result or expected outcome
 
 ----------------------------------------------------------------------------------------------
+Benefits:
+1. It can be understand by both technical people and non technical people
+2. it boosts team work
+3.
