@@ -1,0 +1,15 @@
+Primary keywords:-
+
+1. Feature :
+The feature describes the high-level business value of a software feature
+Example: "Feature: User login"
+
+2. Scenario :
+The Scenario outlines a specific situation or use case of the software
+Example: "Scenario: Successful login with valid credentials"
+
+3. Given: Precondition
+4. When: Describes the action
+5. Then: result or expected outcome
+
+----------------------------------------------------------------------------------------------
