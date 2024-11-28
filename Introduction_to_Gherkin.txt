@@ -32,9 +32,29 @@ Advanced gherkin syntaxes:-
 
 2. Parameterized scenarios with scenario outline [Scenario Outline]
 
-    (i) Used for running the same scenario multiple times with different data steps
+    (i) Used for running the same scenario multiple times with different data sets
     (ii) Followed by an example section containing a table of varaibles and their values
     Syntax:- Use Scenario Outline instead of Scenario, and define variables in the scenario steps, and list the values of these variables
     under the *Examples* keywords
 
+3. Tags @
+    1. Can be assigned to Features,Scenarios,Scenario Outline
 
+----------------------------------------------------------------------------------------
+Essential Tools for working with the gherkin
+
+Several Tools can help in Writing,Organizing and executing Gherkin scenarios as part of automated testing suites
+
+1. Cucumber 
+purpose: Executing gherkin scenarios 
+supported languages : Java,Ruby,Javascript and more.
+
+2. Spec Flow:
+purpose: Executes Gherkin scenario in .NET projects
+
+3. Behave:
+purpose: Executes gherkin scenarios for python projects
+support langauge: Python
+
+-----------------------------------------------------------------------------------------------
+    
